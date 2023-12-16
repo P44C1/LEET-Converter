@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Roboto&display=swap');
+
+body {
+    font-family: 'Mina', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0 5%;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    z-index: 2;
+}
+
+.container_prime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3em 0;
+    padding: 3em 4em;
+}
+
+h1 {
+    background: -webkit-linear-gradient(45deg, #007BFF, #0056b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2em;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #007BFF, #0056b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: #007BFF solid 3px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(45deg, #007BFF, #0056b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: #007BFF solid 3px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+    
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    width: 15em;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+#customConfig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#alphabetConfig {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 10px; /* Increased gap */
+    
+}
+
+#alphabetConfig div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    white-space: nowrap; /* Prevent text from wrapping */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#alphabetConfig input {
+    width: 30px; /* Adjust this value as needed */
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container {
+    gap: 20px;
+}
+
+
+#modeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+}
+label[for="mode"] {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin-right: 5px;
+}
+
+#mode {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 1em;
+    color: #007BFF;
+    box-sizing: border-box;
+}
+
+#customConfig {
+
+    pointer-events: none;
+    opacity: 0.5;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customtimput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_content {
+    width: 50%;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 2% 5%;
+    margin: -0.10em 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+ 
+
+    
+}
+
+
+strong {
+    color: #007BFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_ex {
+    display:inline-block;
+    border-radius: 2px;
+    padding: 1px 4px;
+    background-color: #f8f9fa;
+    color: #000000;
+    border: 1px solid #eaecf0;
+}
+
+
+table {
+    display: inline-table;
+    width: 200px; /* Ajuste este valor conforme necessário */
+    margin-right: 10px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+tbody tr td:first-child, tbody tr th:first-child {
+    background-color: #0063ce;
+}
+
+

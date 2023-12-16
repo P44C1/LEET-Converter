@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LEET Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LEET Converter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="coder.html">Conversor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container_prime">
+        <div class="container">
+            <div class="container_filho">
+                <h2>Conversor LEET</h2>
+                <div class="customtimput">
+                    <textarea id="normalText" rows="9" cols="50" placeholder="Digite o texto normal ou Leet aqui"></textarea>
+                    <textarea id="leetText" rows="9" cols="50" placeholder="O resultado da converção aparece aqui" readonly></textarea>
+                </div>
+                <div class="flex-container">
+                    <button id="toLeetButton">Converter para LEET</button>
+                    <button id="fromLeetButton">Converter para texto normal</button>
+                    <div id="modeContainer">
+                        <label for="mode">Modo:</label>
+                        <select id="mode">
+                            <option value="basic">Leet Básico</option>
+                            <option value="advanced">Leet Avançado</option>
+                            <option value="ultimate">Leet Ultimate</option>
+                            <option value="custom">Leet Costumizável</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="customConfig">
+            <h3>Configuração</h3>
+            <div id="alphabetConfig"></div>
+        </div>
+        <script src="coder.js"></script>
+    </main>
+</body>
+</html>
